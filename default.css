@@ -1,0 +1,167 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* fuild */
+.lato-font {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+}
+
+.fuild {
+    max-width: 1440px;
+    margin: auto;
+}
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+}
+
+.border-radius {
+    border-radius: 20px;
+}
+
+.resize-picture {
+    width: 30%;
+}
+
+.bg-darkmode {
+    background-color: #333;
+}
+
+.bg-brown1 {
+    background: #ddb892;
+}
+
+.bg-brown2 {
+    background: #e6ccb2;
+}
+
+.bg-blue1 {
+    background: #90e0ef
+}
+
+.bg-blue2 {
+    background: #caf0f8;
+}
+
+.bg-blue3 {
+    background: #67e1f6
+}
+
+.bg-blue4 {
+    background: #b9f2ff;
+}
+
+.white-text {
+    color: white;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+.font-big {
+    font-size: 90px;
+}
+
+.font-big-medium {
+    font-size: 40px;
+}
+/* template porfolio css */
+
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100px;
+}
+
+.btn-header {
+    width: 30%;
+    padding: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch; /* Ensure items stretch to fill the container's height */
+    gap: 20px;
+}
+
+.name-main-container {
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 60px;
+    padding-left: 40px;
+}
+
+.img-main-container {
+    min-width: 300px;
+}
+
+.info-main-container {
+    width: 40%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px
+}
+
+.contact-main-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:20px
+}
+/* main page css */
